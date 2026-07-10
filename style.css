@@ -1,3 +1,64 @@
-body{
-    background-color: aquamarine;
+ul{
+    list-style: none;
+    display: flex;
+    gap:10px;
+      
+}
+.logo-nav{
+    display:flex
+}
+
+.spkr{display: flex;
+    font-size: 50px;
+font-weight: bold ;
+justify-content: center;
+}
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+
+}
+.navig{
+    align-items: center;
+}
+ul li a{
+    
+    
+    text-decoration: none;
+    
+   
+}
+.logo-r{
+    display: flex;
+    
+
+}
+.nav-btn{
+    margin-left: 950px;
+    color:white;
+    background-color:#1D4ED8;
+    font-weight: bold;
+    border-radius: 5px;
+    padding:10px 25px;
+
+}
+
+.adem{
+    display: flex;
+    padding:50px 100px;
+    
+}
+.gary-musta{
+    
+    display: flex;
+    padding:50px 100px;
+
+}
+section{
+    padding:0 150px;
+
 }
