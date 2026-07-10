@@ -49,18 +49,25 @@ justify-content: center;
         justify-content: center;
        
         margin:auto;
+        
     }
              .box{
                 border:5px solid #1D4ED8;
-                font-size: 30px;
+                font-size: 10px;
                  border-radius: 20px;
                   width: 300px;
         height: 300px;
+    
+                list-style: inside;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                  
+              
+            
          
             }
-            .card-list{
-                list-style: inside;
-            }
+            
 
 *{
     margin:0;
