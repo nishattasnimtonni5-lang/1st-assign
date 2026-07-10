@@ -5,19 +5,18 @@ nav ul{
       
 }
 .logo-nav{
-    display:flex
+    display:flex;
+    padding:20px 5px;
 }
 .hero-section{
-    
+    text-align: center;
     background-image: url("./assets/banner.jpg");
     background-size:cover;
+
     background-repeat: no-repeat;
     display:block;
 
 
-}
-.common-class{
-    
 }
 .another-btn{
     align-items: center;
@@ -27,14 +26,18 @@ nav ul{
     padding:50px 0;
     color:white;
     font-size: 70px;
-    align-items:2000;
+    
    
     
 }
 .another-para{
-    color:red;
-     margin-left: 250px;
+    
+     color:red;
+     margin-left: 500px;
+     margin-right: 260px;
      margin-bottom:1000px ;
+
+    
 }
 .spkr{display: flex;
     font-size: 50px;
@@ -72,7 +75,8 @@ justify-content: center;
 
 }
 .navig{
-    align-items: center;
+    text-align: center;
+         padding-left:170px;
 }
 ul li a{
     
@@ -87,27 +91,68 @@ ul li a{
 
 }
 .nav-btn{
-    margin-left: 950px;
+    margin-left: 400px;
     color:white;
     background-color:#1D4ED8;
     font-weight: bold;
     border-radius: 5px;
-    padding:10px 25px;
+    padding:6px 20px;
+    
+
 
 }
+.all{
+   
+   max-width: 1200px;
 
+    margin:0 auto;
+
+    
+}
+.andrej img{
+   
+   width:100%;
+     
+     
+}
+.andrej{
+    border:5px solid blue ;
+    border-radius: 10px;
+    
+}
+.demis img{ 
+     width:100%;
+
+}
+.demis{border:5px solid blue ;
+    border-radius: 10px;
+
+}
+.mustafa img{ width:100%;}
+.mustafa{
+
+     border:5px solid blue;
+
+border-radius: 10px;
+}
+.gary img{width:100%;}
+.gary{
+  border:5px solid blue;
+  border-radius: 10px;
+}
 .adem{
-    display: flex;
-    padding:50px 100px;
+width:100%;
+    display:flex;
+    gap:20px;
+    padding:20px 10px;
     
 }
-.gary-musta{
-    
-    display: flex;
-    padding:50px 100px;
+    .gary-mustafa{width:100%;
+        display: flex;
+    padding:20px 10px;
+    gap:20px;
 
-}
-
+    }
 .full-card{padding-top:0;
     background-color: black;
      border:5px solid #1D4ED8;
@@ -120,10 +165,8 @@ ul li a{
                 padding-top:100px;
                 color:gray;
 }
-section{
-    padding:0 150px;
 
-}
+
 body{
     background-color: none;
 }
