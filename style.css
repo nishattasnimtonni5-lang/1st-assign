@@ -7,7 +7,32 @@ ul{
 .logo-nav{
     display:flex
 }
+.hero-section{
+    
+    background-image: url("./assets/banner.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    display:block;
 
+
+}
+.another-btn{
+    align-items: center;
+
+}
+.hero-section-para{
+    padding:50px 0;
+    color:white;
+    font-size: 70px;
+    align-items:2000;
+   
+    
+}
+.another-para{
+    color:red;
+     margin-left: 250px;
+     margin-bottom:1000px ;
+}
 .spkr{display: flex;
     font-size: 50px;
 font-weight: bold ;
