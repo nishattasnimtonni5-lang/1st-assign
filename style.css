@@ -1,4 +1,4 @@
-ul{
+nav ul{
     list-style: none;
     display: flex;
     gap:10px;
@@ -15,6 +15,9 @@ ul{
     display:block;
 
 
+}
+.common-class{
+    
 }
 .another-btn{
     align-items: center;
@@ -40,7 +43,24 @@ justify-content: center;
 }
 
 
-
+.container{
+            display: flex;
+        gap:20px;
+        justify-content: center;
+       
+        margin:auto;
+    }
+             .box{
+                border:5px solid #1D4ED8;
+                font-size: 30px;
+                 border-radius: 20px;
+                  width: 300px;
+        height: 300px;
+         
+            }
+            .card-list{
+                list-style: inside;
+            }
 
 *{
     margin:0;
