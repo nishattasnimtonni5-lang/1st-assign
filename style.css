@@ -6,7 +6,7 @@ nav ul{
 }
 .logo-nav{
     display:flex;
-    padding:20px 5px;
+    padding:20px 200px;
 }
 .hero-section{
     text-align: center;
@@ -33,9 +33,11 @@ nav ul{
 .another-para{
     
      color:red;
-     margin-left: 500px;
-     margin-right: 260px;
+     margin-left: 13cm;
+     margin-right: 70px;
      margin-bottom:1000px ;
+     
+padding-right:450px;
 
     
 }
@@ -45,7 +47,6 @@ font-weight: bold ;
 justify-content: center;
 }
 
-
 .container{display: flex;
         gap:20px;
         justify-content: center;
@@ -54,22 +55,29 @@ justify-content: center;
         
     }
              .box-prime{
-                border:5px solid #1D4ED8;
+                border:1px solid #333333;
                 font-size: 15px;
                 list-style: inside;
                  border-radius: 20px;
                   width: 300px;
         height: 300px;
-    text-align: center;
-                padding-top:100px;
+                padding-top:20px;
+                padding-bottom:60px ;
+                padding-left: 25px;
                   
               
             
          
             }
+            .last-box{
+                color:#888888;
+            }
+            .boxx3{
+                background-color:rgb(245, 241, 241);
+            }
             
 
-*{
+*{ font-family: "Inter",sans-serif;
     margin:0;
     padding:0;
 
@@ -90,16 +98,28 @@ ul li a{
     
 
 }
+.list-style{
+    padding-bottom: 30px;
+    padding:20px 0;
+}
+.cmmn-btn{
+    padding:15px 0;
+}
 .nav-btn{
-    margin-left: 400px;
+    margin-left: 330px;
     color:white;
     background-color:#1D4ED8;
     font-weight: bold;
     border-radius: 5px;
-    padding:6px 20px;
+    padding:6px 30px;
     
 
 
+}
+.common-para2{
+    color:skyblue;
+    font-size: 15px;
+font-weight: bold;
 }
 .all{
    
@@ -124,14 +144,17 @@ ul li a{
      width:100%;
 
 }
-.demis{border:5px solid blue ;
+.spkr-2{
+    padding:20px;
+}
+.demis{border:5px solid black ;
     border-radius: 10px;
 
 }
 .mustafa img{ width:100%;}
 .mustafa{
 
-     border:5px solid blue;
+     border:1px gray;
 
 border-radius: 10px;
 }
@@ -140,6 +163,7 @@ border-radius: 10px;
   border:5px solid blue;
   border-radius: 10px;
 }
+
 .adem{
 width:100%;
     display:flex;
@@ -153,37 +177,65 @@ width:100%;
     gap:20px;
 
     }
-.full-card{padding-top:0;
+.full-card{
     background-color: black;
-     border:5px solid #1D4ED8;
+     border:1px gray;
                 font-size: 15px;
                 list-style: inside;
                  border-radius: 20px;
                   width: 300px;
         height: 300px;
-    text-align: center;
-                padding-top:100px;
+    
+                
                 color:gray;
+                 
+                 padding-top:20px;
+                padding-bottom:60px ;
+                padding-left: 25px;
+                 
+}
+.new-font{
+    color:white;
 }
 
 
 body{
     background-color: none;
 }
+li::marker{
+    color:#2563EB;
+}
 .btn1{
-    border-color: skyblue;
+    background-color: white;
     border-radius: 5px;
-    padding:5px 100px;
+    padding:9px 95px;
+    color:#2563EB;
+    border: 1.5px solid #2563EB;
 }
 .btn2{
-    color:white;
+    color:#FFFFFF;
     border-radius: 5px;
-    padding:5px 100px;
-    background-color: #1D4ED8;
+    padding:9px 114px;
+    background-color:#2563EB;
+    border: 1.5px solid #2563EB;
+     
     
 }
 .btn3{
-    border-color: gray;
+    border-color:#0D1B2A;
     border-radius: 5px;
-    padding:5px 100px;
+    padding:9px 100px;
+     border:1.5px solid #0D1B2A;
+}
+.common-class{
+    padding:15px 15px;
+}
+.common-p1{
+    color:#2759e3;
+    font-size:13px;
+}
+.common-p3{
+    font-size:13px;
+    color:gray
+
 }
