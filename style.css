@@ -11,34 +11,46 @@ nav ul{
 .hero-section{
     text-align: center;
     background-image: url("./assets/banner.jpg");
-    background-size:cover;
-
+    background-size:contain;
+bac
     background-repeat: no-repeat;
-    display:block;
+    
+    height:1000px;
+    width:1255px;
 
 
 }
+.banner-sec{
+    padding-top:330px;
+}
 .another-btn{
-    align-items: center;
+    padding:15px 50px;
+    background-color: #1D4ED8;
+    border:1.5px solid #1D4ED8;
+    border-radius:5px;
+    color:#FFFFFF;
 
 
 }
 .hero-section-para{
-    padding:50px 0;
+    padding-top: 150px;
     color:white;
-    font-size: 70px;
+    font-size: 55px;
     
-   
+    font-weight: bold;
+    text-align: center;
+   padding-left:30px;
     
 }
 .another-para{
-    
-     color:red;
-     margin-left: 13cm;
-     margin-right: 70px;
-     margin-bottom:1000px ;
+    text-align:center;
+     color:#FFFFFF;
+     margin-left:370px ;
+    max-width:560px;
+    font-size: 15px;
      
-padding-right:450px;
+   
+padding-top:10px;
 
     
 }
@@ -87,6 +99,7 @@ justify-content: center;
     text-align: center;
          padding-left:170px;
          margin:auto;
+         color:#575757;
 }
 ul li a{
     
@@ -108,14 +121,16 @@ ul li a{
     padding:15px 0;
 }
 .nav-btn{
-    margin-left: 210px;
+    margin-left: 240px;
     color:white;
     background-color:#1D4ED8;
     font-weight: bold;
     border-radius: 5px;
-    padding:6px 30px;
-    
+    padding:8px 30px;
+    font-size: 12px;
 
+white-space: nowrap;
+border:1.5px solid#1D4ED8;
 
 }
 .common-para2{
