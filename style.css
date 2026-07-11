@@ -21,6 +21,7 @@ nav ul{
 .another-btn{
     align-items: center;
 
+
 }
 .hero-section-para{
     padding:50px 0;
@@ -85,6 +86,7 @@ justify-content: center;
 .navig{
     text-align: center;
          padding-left:170px;
+         margin:auto;
 }
 ul li a{
     
@@ -106,7 +108,7 @@ ul li a{
     padding:15px 0;
 }
 .nav-btn{
-    margin-left: 330px;
+    margin-left: 210px;
     color:white;
     background-color:#1D4ED8;
     font-weight: bold;
