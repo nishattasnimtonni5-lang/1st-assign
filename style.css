@@ -41,7 +41,7 @@ nav ul{
     
     font-weight: bold;
     text-align: center;
-   padding-left:30px;
+   padding-left:40px;
 
    
     
@@ -62,6 +62,9 @@ padding-top:10px;
     font-size: 50px;
 font-weight: bold ;
 justify-content: center;
+padding-top:60px ;
+padding-bottom: 15px;
+
 
 }
 
@@ -127,7 +130,7 @@ ul li a{
     padding:15px 0;
 }
 .nav-btn{
-    margin-left: 240px;
+    margin-left: 210px;
     color:white;
     background-color:#1D4ED8;
     font-weight: bold;
@@ -146,7 +149,7 @@ font-weight: bold;
 }
 .all{
    
-   max-width: 1200px;
+   max-width: 1000px;
 
     margin:0 auto;
 
@@ -159,32 +162,39 @@ font-weight: bold;
      
 }
 .andrej{
-    border:5px solid blue ;
-    border-radius: 10px;
-    
+    border:2px solid #E5E7EB;
+    border-radius: 20px;
+overflow: hidden;    
 }
 .demis img{ 
      width:100%;
 
 }
 .spkr-2{
-    padding:20px;
+    padding-bottom: 50px;
+    font-size: 50px;
+font-weight: bold ;
+justify-content: center;
+display: flex;
 }
-.demis{border:5px solid black ;
-    border-radius: 10px;
+.demis{ border:2px solid #E5E7EB ;
+    border-radius:20px;
+    overflow: hidden;  
 
 }
 .mustafa img{ width:100%;}
 .mustafa{
 
-     border:1px gray;
-
-border-radius: 10px;
+      border:2px solid #E5E7EB ;
+overflow: hidden;  
+border-radius:20px;
 }
 .gary img{width:100%;}
 .gary{
-  border:5px solid blue;
-  border-radius: 10px;
+   border:2px solid #E5E7EB ;
+  border-radius:20px;
+  overflow: hidden;  
+  
 }
 
 .adem{
@@ -255,10 +265,16 @@ li::marker{
 }
 .common-p1{
     color:#2759e3;
-    font-size:13px;
+    font-size:11px;
+    padding-bottom: 5px;
 }
 .common-p3{
-    font-size:13px;
-    color:gray
+    font-size:11px;
+    color:gray;
 
+
+
+}
+.common-p2{
+    padding-bottom: 5px;
 }
