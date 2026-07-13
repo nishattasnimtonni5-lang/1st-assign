@@ -9,6 +9,15 @@ nav ul{
     padding:20px 200px;
 
 }
+.network{
+    background-color:#1a1616;
+    display:flex;
+    
+    padding:30px 80px;
+}
+.get-c{
+    color:white;
+}
 .hero-section{
     text-align: center;
     background-image:linear-gradient( to right,rgba(0,0,0,0.9),rgba(0,0,0,0)), url("./assets/banner.jpg");
@@ -90,6 +99,7 @@ padding-bottom: 15px;
             
          
             }
+
             .last-box{
                 color:#888888;
             }
@@ -128,6 +138,50 @@ ul li a{
 }
 .cmmn-btn{
     padding:15px 0;
+}
+.horiz{
+    width:30%;
+    border:1.5px solid #2256e6;
+
+}
+.copyright{
+    text-align: center;
+    background-color: #1a1616;
+    color:white;
+    padding :20px 0;
+}
+.footer{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #1a1616;
+    padding:70px;
+
+}
+
+.net{
+    
+margin-left:500px;
+}
+.net-icon{padding:0 25px;
+    color:white;}
+
+.f-img{
+    padding-top:100px;
+}
+    .ccc{
+        color:white;
+        padding-top:20px;
+        font-size: 20px;
+    }
+.fa-angle-right{
+    color: #2563EB;
+}
+.cmmn-ftr{
+    text-decoration: none;
+    list-style: none;
+    color:white;
+    padding-top: 15px;
+
 }
 .nav-btn{
     margin-left: 210px;
