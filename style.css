@@ -139,6 +139,7 @@ ul li a{
 .list-style{
     padding-bottom: 30px;
     padding:20px 0;
+    transition:.3s;
 }
 .cmmn-btn{
     padding:15px 0;
@@ -263,6 +264,7 @@ border-radius:20px;
   border-radius:20px;
   overflow: hidden;  
   
+  
 }
 
 .adem{
@@ -287,7 +289,7 @@ width:100%;
                   width: 300px;
         height: 300px;
     
-                
+                transition:.3s;
                 color:gray;
                  
                  padding-top:20px;

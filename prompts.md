@@ -1,0 +1,1 @@
+so this my AI section of my assignment.as u can see the requirements are on the left picture and the missing section is in the right picture.the assignment is about DEVCONF2026.So write me the codes related to the assignment making sure it is matched to the other sections of the assignments.help me with html and css codes
