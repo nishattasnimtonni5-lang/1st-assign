@@ -9,11 +9,13 @@ nav ul{
     padding:20px 200px;
 
 }
+
 .network{
     background-color:#1a1616;
     display:flex;
-    
-    padding:30px 80px;
+    justify-content:center;
+    padding:30px 50px;
+    gap:9px;
 }
 .get-c{
     color:white;
@@ -65,7 +67,7 @@ nav ul{
      color:#FFFFFF;
      margin-left:370px ;
     max-width:560px;
-    font-size: 15px;
+    font-size: 18px;
      
    
 padding-top:10px;
@@ -85,7 +87,7 @@ padding-bottom: 15px;
 .container{display: flex;
         gap:20px;
         justify-content: center;
-       padding-bottom: 100px;
+       padding-bottom: 50px;
         
     }
              .box-prime{
@@ -94,10 +96,11 @@ padding-bottom: 15px;
                 list-style: inside;
                  border-radius: 20px;
                   width: 300px;
-        height: 300px;
+    height: 300px;
                 padding-top:20px;
                 padding-bottom:60px ;
                 padding-left: 25px;
+                box-shadow:5px 5px #b3b6b8;
                   
               
             
@@ -124,12 +127,21 @@ padding-bottom: 15px;
        
 }
 
-ul li a{
+.nav-list{
     
-    color:#575757;
+    color:#64748b;
     text-decoration: none;
     
    
+}
+.net-icon:hover{
+    color:#2256e6;
+}
+footer a:hover{
+color:#2256e6;
+}
+.nav-list:hover{
+    color:#2256e6;
 }
 .logo-r{
     display: flex;
@@ -158,7 +170,7 @@ ul li a{
     text-align: center;
     background-color: #1a1616;
     color:white;
-    padding :20px 0;
+    padding :30px 0;
 }
 .footer{
     display:flex;
@@ -168,11 +180,8 @@ ul li a{
 
 }
 
-.net{
-    
-margin-left:500px;
-}
-.net-icon{padding:0 25px;
+
+.net-icon{padding:0 8px;
     color:white;}
 
 .f-img{
@@ -192,6 +201,10 @@ margin-left:500px;
     color:white;
     padding-top: 15px;
 
+}
+.link-clr{
+    color:#aba9a9;
+    text-decoration: none;
 }
 .nav-btn{
     margin-left: 210px;
@@ -289,7 +302,7 @@ width:100%;
                   width: 300px;
         height: 300px;
     
-                transition:.3s;
+                box-shadow:5px 5px #3c3c3d;
                 color:gray;
                  
                  padding-top:20px;
@@ -370,11 +383,11 @@ Hackathon Section
 .hackathon{
 
     padding:100px 0;
-    background:#f8fafc;
+    background:#b2c2d3;
 
 }
 
-.container{
+.container2{
 
     max-width:1200px;
     margin:auto;
@@ -476,7 +489,7 @@ Hackathon Section
 .hackathon-button{
 
     text-align:center;
-    margin-top:200px;
+    margin-top:70px;
 
 }
 
@@ -495,8 +508,10 @@ Hackathon Section
 }
 
 .hackathon-button a:hover{
-
-    background:#1d4ed8;
+    
+    background-color: white;
+    color: #1D4ED8;
+    cursor: pointer;
 
 }
 
