@@ -120,6 +120,10 @@ padding-bottom: 15px;
     padding:0;
 
 }
+.footer-horiz{
+
+    border-color:rgb(145, 143, 143);
+}
 .navig{
     text-align: center;
          padding-left:170px;
@@ -141,7 +145,8 @@ footer a:hover{
 color:#2256e6;
 }
 .nav-list:hover{
-    color:#2256e6;
+   background-color: rgb(230, 222, 222);
+   padding:5px 0px;
 }
 .logo-r{
     display: flex;
@@ -183,6 +188,11 @@ color:#2256e6;
 
 .net-icon{padding:0 8px;
     color:white;}
+    .nav-stick{
+        position:sticky;
+        top:0;
+        z-index:1000;
+    }
 
 .f-img{
     padding-top:100px;
@@ -191,6 +201,7 @@ color:#2256e6;
         color:white;
         padding-top:20px;
         font-size: 20px;
+    
     }
 .fa-angle-right{
     color: #2563EB;
@@ -216,12 +227,13 @@ color:#2256e6;
     font-size: 15px;
 
 white-space: nowrap;
-border:1.5px solid#1D4ED8;
+border:1.5px solid #1D4ED8;
 
 }
 .nav-btn:hover{
-    background-color: white;
-    color: #1D4ED8;
+    background-color: rgb(246, 243, 243);
+color:#1D4ED8;
+    
     cursor: pointer;
 }
 .common-para2{
@@ -302,7 +314,7 @@ width:100%;
                   width: 300px;
         height: 300px;
     
-                box-shadow:5px 5px #3c3c3d;
+                box-shadow:5px 5px #717172;
                 color:gray;
                  
                  padding-top:20px;
@@ -313,7 +325,6 @@ width:100%;
 .new-font{
     color:white;
 }
-
 
 body{
     background-color: none;
@@ -383,7 +394,7 @@ Hackathon Section
 .hackathon{
 
     padding:100px 0;
-    background:#b2c2d3;
+    background:#c7d6e7;
 
 }
 
