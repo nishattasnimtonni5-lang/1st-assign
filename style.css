@@ -26,14 +26,15 @@ nav ul{
     background-size:cover;
     background-repeat: no-repeat;
     
-    height:825px;
-    width: 1255px;
+    min-height:100vh;
+    width:100%;
     
+    background-position:center;
     
 
 }
 .banner-sec{
-    padding-top:330px;
+    padding-top:200px;
 }
 .another-btn{
     padding:15px 50px;
@@ -64,10 +65,10 @@ nav ul{
 }
 .another-para{
     text-align:center;
-     color:#FFFFFF;
+     color:#ddd8d8;
      margin-left:370px ;
     max-width:560px;
-    font-size: 18px;
+    font-size: 15px;
      
    
 padding-top:10px;
@@ -78,7 +79,7 @@ padding-top:10px;
     font-size: 50px;
 font-weight: bold ;
 justify-content: center;
-padding-top:60px ;
+padding-top:100px ;
 padding-bottom: 15px;
 
 
@@ -96,7 +97,7 @@ padding-bottom: 15px;
                 list-style: inside;
                  border-radius: 20px;
                   width: 300px;
-    height: 300px;
+    height: 340px;
                 padding-top:20px;
                 padding-bottom:60px ;
                 padding-left: 25px;
@@ -109,9 +110,10 @@ padding-bottom: 15px;
 
             .last-box{
                 color:#888888;
+                padding:6px 0;
             }
             .boxx3{
-                background-color:rgb(245, 241, 241);
+                background-color:#E5E7EB;
             }
             
 
@@ -239,6 +241,7 @@ color:#1D4ED8;
 .common-para2{
     color:skyblue;
     font-size: 15px;
+    padding:6px 0;
 font-weight: bold;
 }
 .all{
@@ -267,7 +270,6 @@ overflow: hidden;
 .spkr-2{
     padding-bottom: 50px;
     font-size: 50px;
-font-weight: bold ;
 justify-content: center;
 display: flex;
 }
@@ -306,16 +308,16 @@ width:100%;
 
     }
 .full-card{
-    background-color: black;
+    background-color:#0D1B2A;
      border:1px gray;
                 font-size: 15px;
                 list-style: inside;
                  border-radius: 20px;
                   width: 300px;
-        height: 300px;
+        height: 340px;
     
                 box-shadow:5px 5px #717172;
-                color:gray;
+                color:#cfcdcd;
                  
                  padding-top:20px;
                 padding-bottom:60px ;
@@ -379,13 +381,14 @@ li::marker{
 }
 .common-p3{
     font-size:11px;
-    color:gray;
+    color:rgb(86, 86, 86);
 
 
 
 }
 .common-p2{
     padding-bottom: 5px;
+    font-weight: bold;
 }
 /*=========================
 Hackathon Section
